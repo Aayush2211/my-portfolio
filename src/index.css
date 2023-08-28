@@ -1,6 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Bricolage+Grotesque:200,300,regular,500,600,700,800);
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Bricolage Grotesque", sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,3 +13,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ 
+body ::-webkit-scrollbar,
+html ::-webkit-scrollbar{
+  display : none;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
